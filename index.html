@@ -1,14 +1,206 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>My Website</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Baker Events LLC provides event decorating, balloon installations, DJ entertainment, and professional audio services throughout Upstate South Carolina.">
+  <title>Baker Events LLC | Décor, DJ & Professional Audio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Baker Events LLC home">
+      <span class="brand-mark">BE</span>
+      <span><strong>Baker Events</strong><small>Design • Entertainment • Audio</small></span>
+    </a>
+    <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+    <nav class="site-nav" aria-label="Main navigation">
+      <a href="#services">Services</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#about">About</a>
+      <a href="#quote" class="nav-cta">Get a Quote</a>
+    </nav>
+  </header>
 
-<h1>Welcome!</h1>
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+        <p class="eyebrow">Serving Anderson, Greenville & Upstate South Carolina</p>
+        <h1>We make your event look, sound, and feel unforgettable.</h1>
+        <p class="hero-copy">Elegant event décor, custom balloon installations, energetic DJ entertainment, and dependable professional audio—all from one experienced team.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#quote">Request a Quote</a>
+          <a class="button secondary" href="#services">Explore Services</a>
+        </div>
+      </div>
+      <div class="hero-card">
+        <span>One team.</span>
+        <strong>Every detail.</strong>
+        <p>Décor • Balloons • DJ • Sound</p>
+      </div>
+    </section>
 
-<p>This is my first website.</p>
+    <section class="intro section">
+      <p class="eyebrow">Full-Service Event Support</p>
+      <h2>From the first impression to the final song.</h2>
+      <p>Whether you are planning a birthday celebration, gala, fundraiser, conference, community event, or live performance, Baker Events LLC brings together the visual design and technical support needed to create a polished experience.</p>
+    </section>
 
+    <section class="services section" id="services">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">What We Do</p>
+          <h2>Services built around your event.</h2>
+        </div>
+        <p>Book one service or combine several for a seamless event from setup through breakdown.</p>
+      </div>
+
+      <div class="service-grid">
+        <article class="service-card">
+          <span class="service-number">01</span>
+          <h3>Event Decorating</h3>
+          <p>Thoughtful décor for galas, fundraisers, banquets, birthdays, school functions, corporate gatherings, and community celebrations.</p>
+          <ul>
+            <li>Theme and color coordination</li>
+            <li>Table and room styling</li>
+            <li>Backdrops and focal areas</li>
+            <li>Setup and breakdown</li>
+          </ul>
+        </article>
+
+        <article class="service-card featured">
+          <span class="service-number">02</span>
+          <h3>Balloon Installations</h3>
+          <p>Custom balloon designs that turn entrances, stages, photo areas, and party spaces into memorable experiences.</p>
+          <ul>
+            <li>Organic balloon arches</li>
+            <li>Garlands and columns</li>
+            <li>Birthday and shower designs</li>
+            <li>Grand openings and school events</li>
+          </ul>
+        </article>
+
+        <article class="service-card">
+          <span class="service-number">03</span>
+          <h3>DJ Entertainment</h3>
+          <p>Professional music and event energy tailored to your audience, timeline, and atmosphere.</p>
+          <ul>
+            <li>Private parties and birthdays</li>
+            <li>Fundraisers and galas</li>
+            <li>Community and school events</li>
+            <li>Announcements and emcee support</li>
+          </ul>
+        </article>
+
+        <article class="service-card">
+          <span class="service-number">04</span>
+          <h3>Professional Audio</h3>
+          <p>Clear, dependable sound reinforcement for speakers, performers, conferences, bands, and outdoor events.</p>
+          <ul>
+            <li>PA systems and microphones</li>
+            <li>Conference and panel audio</li>
+            <li>Band sound and backline support</li>
+            <li>Stage monitors and sound engineering</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section class="statement">
+      <div>
+        <p class="eyebrow">Why Baker Events</p>
+        <h2>Professional enough for the ballroom. Flexible enough for the backyard.</h2>
+      </div>
+      <div class="value-list">
+        <div><strong>Reliable</strong><span>Clear communication and dependable arrival.</span></div>
+        <div><strong>Versatile</strong><span>Creative and technical services under one roof.</span></div>
+        <div><strong>Personal</strong><span>Every event is designed around your vision.</span></div>
+      </div>
+    </section>
+
+    <section class="gallery section" id="gallery">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Recent Work</p>
+          <h2>A glimpse of what we create.</h2>
+        </div>
+        <p>Replace these sample panels with your own event photos when you are ready.</p>
+      </div>
+      <div class="gallery-grid">
+        <figure class="gallery-item tall"><div class="photo-placeholder">Balloon Arch Photo</div><figcaption>Celebrations</figcaption></figure>
+        <figure class="gallery-item"><div class="photo-placeholder">Gala Décor Photo</div><figcaption>Galas & Fundraisers</figcaption></figure>
+        <figure class="gallery-item"><div class="photo-placeholder">DJ Setup Photo</div><figcaption>DJ Entertainment</figcaption></figure>
+        <figure class="gallery-item wide"><div class="photo-placeholder">Professional Audio Photo</div><figcaption>Conferences & Live Sound</figcaption></figure>
+      </div>
+    </section>
+
+    <section class="about section" id="about">
+      <div class="about-visual">
+        <span>Baker Events LLC</span>
+        <strong>Built to serve.</strong>
+      </div>
+      <div class="about-copy">
+        <p class="eyebrow">About Us</p>
+        <h2>Creative vision backed by practical event experience.</h2>
+        <p>Baker Events LLC helps clients bring people together through well-designed spaces, engaging entertainment, and professional sound. We believe every event deserves careful preparation, dependable service, and details that make guests feel welcomed.</p>
+        <p>Our goal is simple: reduce the stress of event planning while helping your celebration or program make a lasting impression.</p>
+      </div>
+    </section>
+
+    <section class="quote section" id="quote">
+      <div class="quote-copy">
+        <p class="eyebrow">Start Planning</p>
+        <h2>Tell us about your event.</h2>
+        <p>Complete the form and your email application will open with the event details ready to send. Before publishing, replace the placeholder email in <code>script.js</code> with your business email address.</p>
+        <div class="contact-details">
+          <p><strong>Email</strong><br><span>YOUR-EMAIL@example.com</span></p>
+          <p><strong>Phone</strong><br><span>(864) 000-0000</span></p>
+          <p><strong>Service Area</strong><br><span>Upstate South Carolina</span></p>
+        </div>
+      </div>
+
+      <form class="quote-form" id="quote-form">
+        <label>Full name<input type="text" name="name" required></label>
+        <label>Email address<input type="email" name="email" required></label>
+        <label>Phone number<input type="tel" name="phone"></label>
+        <div class="form-row">
+          <label>Event date<input type="date" name="date"></label>
+          <label>Guest count<input type="number" name="guests" min="1"></label>
+        </div>
+        <label>Service needed
+          <select name="service" required>
+            <option value="">Choose a service</option>
+            <option>Event Decorating</option>
+            <option>Balloon Installation</option>
+            <option>DJ Entertainment</option>
+            <option>Professional Audio / PA</option>
+            <option>Multiple Services</option>
+          </select>
+        </label>
+        <label>Event details<textarea name="details" rows="5" placeholder="Tell us about the venue, occasion, theme, schedule, and services you need." required></textarea></label>
+        <button class="button primary" type="submit">Prepare Quote Request</button>
+        <p class="form-note">No information is stored on this website.</p>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <a class="brand footer-brand" href="#home">
+      <span class="brand-mark">BE</span>
+      <span><strong>Baker Events LLC</strong><small>Design • Entertainment • Audio</small></span>
+    </a>
+    <p>© <span id="year"></span> Baker Events LLC. All rights reserved.</p>
+    <div class="footer-links">
+      <a href="#services">Services</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#quote">Contact</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
