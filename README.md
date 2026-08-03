@@ -1,32 +1,23 @@
 # Baker Events LLC Website
 
-A responsive static website for **bakereventsllc.com**, designed for free hosting with GitHub Pages.
+This is the complete GitHub Pages website for **bakereventsllc.com**.
 
-## Files
+## Upload to GitHub
 
-- `index.html` — all website content
-- `styles.css` — colors, layout, mobile styling
-- `script.js` — mobile menu and quote-request email form
-- `CNAME` — custom-domain setting for GitHub Pages
+1. Download and unzip `baker-events-complete.zip`.
+2. Open the unzipped folder.
+3. In GitHub, open `curtisbaker10-ai.github.io`.
+4. Click **Add file → Upload files**.
+5. Upload everything inside the folder, including the entire `assets` folder.
+6. Click **Commit changes**.
 
-## Before publishing
+The repository should show:
 
-1. Open `index.html`.
-2. Replace:
-   - `YOUR-EMAIL@example.com`
-   - `(864) 000-0000`
-3. Open `script.js`.
-4. Replace `YOUR-EMAIL@example.com` with the same business email.
-5. Replace the four gallery placeholder panels with your own photographs.
+- `index.html`
+- `styles.css`
+- `script.js`
+- `README.md`
+- `CNAME`
+- `assets`
 
-## Publish on GitHub Pages
-
-1. Upload all files to the root of your GitHub repository.
-2. In the repository, open **Settings → Pages**.
-3. Under **Build and deployment**, choose **Deploy from a branch**.
-4. Select the `main` branch and `/(root)`, then save.
-5. In **Custom domain**, enter `bakereventsllc.com`.
-6. Configure the DNS records at GoDaddy as directed by GitHub.
-7. After GitHub confirms the DNS setup, enable **Enforce HTTPS**.
-
-The repository must contain `index.html` at the top level of the selected publishing source.
+The `assets` folder must be next to `index.html`.
